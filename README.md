@@ -25,9 +25,9 @@ The project uses Python and tools such as pandas,numpy, scikit-learn, Surprise, 
 
 **Modeling Approach**: For collaborative filtering, the Surprise library’s KNNBasic algorithm was used, while cosine similarity was employed for content-based filtering on genres and tag relevance.
 
-**Model Evaluation**: Model performance was validated using train-test split and cross-validation, with evaluation metrics including Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and Precision@k. 
+**Model Evaluation**: Model performance was validated using train-test split and cross-validation, with evaluation metrics including Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and Precision@k.
 
-# Data Visualization
+## Data Analysis
 
 ![Best RMSE Scores for Each Model](https://github.com/user-attachments/assets/a7ba6780-05e8-4e5f-9777-86c561177d54)
 
@@ -37,7 +37,7 @@ This graph shows that SVD performs slightly better, with lower error scores. Low
 
 The graph shows how RMSE changes with different n_factors in the SVD model.Lowest RMSE occurs at n_factors = 50, meaning best performance.
 
-# Findings and Recommendations
+## Findings and Recommendations
 
 This project showcases a scalable and practical recommendation system tailored for movie platforms.
 It aims to improve: User retention, Satisfaction, and Engagement, by delivering personalized movie suggestions based on preferences.

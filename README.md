@@ -10,7 +10,7 @@ This project explores the development of a personalized movie recommendation sys
 - How do different KNN settings (k-values and similarity metrics) impact prediction accuracy?
 
 ## Business Problem
-How can we leverage user ratings and tagging behavior to improve personalized movie recommendations, thereby increasing user engagement and satisfaction for a movie recommendation platform?
+Can we leverage user ratings and tagging behavior to improve personalized movie recommendations, thereby increasing user engagement and satisfaction for a movie recommendation platform?
 
 ## Data
 The dataset from [MovieLens](https://grouplens.org/datasets/movielens/latest/), a movie recommendation platform, captures user activity in the form of 5-star ratings and free-text tags. It includes 100,836 ratings and 3,683 tag entries for a total of 9,742 movies. These interactions were recorded by 610 randomly selected users between March 29, 1996, and September 24, 2018. The dataset itself was compiled on September 26, 2018.
@@ -38,7 +38,7 @@ The distribution shows that ratings tend to be positive with most lying from 3.0
 
 ![Best RMSE Scores for Each Model](https://github.com/user-attachments/assets/a7ba6780-05e8-4e5f-9777-86c561177d54)
 
-This graph shows that SVD performs slightly better, with lower error scores. Lower scores are better, so SVD is the preferred model for predicting movie ratings accurately.
+This graph shows that SVD performs slightly better, with lower error scores. Lower scores are better, therefore SVD is the preferred model for predicting movie ratings accurately.
 
 ![(RMSE vs. Hyperparameters)](https://github.com/user-attachments/assets/462074f0-91da-4e44-ad95-dd6997d4b235)
 
@@ -49,7 +49,7 @@ The graph shows how RMSE changes with different n_factors in the SVD model.Lowes
 This project showcases a scalable and practical recommendation system tailored for movie platforms.
 First, The SVD model outperforms memory-based KNN by capturing latent features genre preferences, user tastes, rating habits and, with 50 factors, delivers high accuracy without heavy compute demands.
 
-Secondly, top Films like Forrest Gump, and Shawshank Redemption should be featured by the streaming platform . They should be unpersonalised recommendations because they are classic high rated hits and boost overall platform engagement 
+Secondly, top Films like Forrest Gump, and Shawshank Redemption should be featured by the streaming platform . They should be unpersonalised recommendations because they are classic high rated hits and boost overall platform engagement.
 
 ## Contributors:
 1. Michelle Chekwoti
